@@ -6,7 +6,7 @@ Neste estudo de caso, feito para o curso Big Data Real-Time Analytics com Python
 Na análise exploratória, foi feita uma separação entre variáveis categóricas e numéricas, para que ambos os tipos de variáveis pudessem ser avaliados separadamente. A exploração foi feita através de gráficos de distribuição de frequência e de estudos das relações entre as variáveis.
 Além disso, foi feita uma análise para identificação e remoção de dados duplicados e ausentes.
 
-##Pré-Processamento de Dados
+## Pré-Processamento de Dados
 No pré-processamento, uma das variáveis foi removida, por apresentar elevada correlação com outra variável preditora, o que pode indicar colinearidade, ou seja, duas variáveis carregando a mesma informação, o que pode tornar o modelo tendencioso.
 Os dados foram divididos em dados de treino e teste, usando a proporção de 75/25, respectivamente.
 Por fim, é necessário preparar os dados para os modelos. Para isso, as variáveis categóricas foram balanceadas usando over-sampling, de modo a evitar diferença nas frequências e impedir o modelo de aprender igualmente sobre todas. Já as variáveis numéricas foram padronizadas, impedindo que variáveis estejam em ordens de grandeza diferentes, e, portanto, influenciem os modelos de forma diferente. Todos os processamentos feitos nos dados de treino também foram feitos nos dados de teste, uma vez que são necessários para obtenção de resultados válidos nos modelos.
